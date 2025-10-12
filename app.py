@@ -373,7 +373,7 @@ def generate_gif(text: str, gif_path: str, max_new_tokens: int = 1024, temperatu
         time.sleep(0.01)
         yield buffer, buffer
 
-image_examples = [["Perform OCR on the image precisely...", "examples/images/1.jpg"],
+image_examples = [["Perform OCR on the image...", "examples/images/1.jpg"],
                   ["Caption the image. Describe the safety measures shown in the image. Conclude whether the situation is (safe or unsafe)...", "examples/images/2.jpg"],
                   ["Solve the problem...", "examples/images/3.png"]]
 video_examples = [["Explain the Ad video in detail.", "examples/videos/1.mp4"],
