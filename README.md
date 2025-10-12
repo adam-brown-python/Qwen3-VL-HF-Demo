@@ -2,13 +2,9 @@
 
 This is a Gradio-based demo application for the Qwen3-VL multimodal model. It allows users to perform inference on various media types, including images, videos, PDFs, GIFs, and image captioning. The app supports querying and analyzing content using the powerful Qwen3-VL-30B-A3B-Instruct model from Hugging Face.
 
-| Img1 | Img2 |
-|--------------|--------------|
-| ![Screenshot 1](https://github.com/user-attachments/assets/7cf23b6c-ccca-40f2-8547-0016253e4b44) | ![Screenshot 2](https://github.com/user-attachments/assets/2e6b061b-512d-4b20-88d7-d016952ed52b) |
-
+ ![Screenshot 1](https://github.com/user-attachments/assets/7cf23b6c-ccca-40f2-8547-0016253e4b44)
 <img width="1771" height="1081" alt="Screenshot 2025-10-12 at 19-44-46 Qwen3 VL HF Demo - a Hugging Face Space by prithivMLmods" src="https://github.com/user-attachments/assets/3cb7d6ee-1e9e-4674-8f3d-7ad9cedbceb4" />
 <img width="1775" height="1273" alt="Screenshot 2025-10-12 at 19-17-12 Qwen3 VL HF Demo - a Hugging Face Space by prithivMLmods" src="https://github.com/user-attachments/assets/befe4813-39b1-47aa-984f-3f994483ea2e" />
-<img width="1771" height="1081" alt="Screenshot 2025-10-12 at 19-44-46 Qwen3 VL HF Demo - a Hugging Face Space by prithivMLmods" src="https://github.com/user-attachments/assets/5e752d28-d423-450a-8afb-814127e8d848" />
 <img width="1748" height="983" alt="Screenshot 2025-10-12 at 19-50-02 Qwen3 VL HF Demo - a Hugging Face Space by prithivMLmods" src="https://github.com/user-attachments/assets/afc3b372-059a-4442-a570-1958e5b1693e" />
 
 ## Features
